@@ -14,7 +14,7 @@ const DwarikasStory = () => {
                 <button className='flex items-center gap-1 hover:text-gray-400 text-gray-500 cursor-pointer hover:border-b-1 w-fit'>Readmore <BiArrowFromLeft /></button>
             </div>
             <div className='col-span-2'>
-                <Image src={"/image2.jpg"} alt='' width={1200} height={1200} className='w-full h-full'/>
+                <Image src={"/image5.jpg"} alt='' width={1200} height={1200} className='w-full h-full'/>
             </div>
             
         </div>
