@@ -30,7 +30,7 @@ export default function Navbar() {
           <div className="flex items-center gap-[1px]">
           <button
             onClick={toggleMenu}
-            className="flex items-center gap-2  text-white px-3 py-1 text-xs uppercase">
+            className="flex items-center gap-2  text-white px-3 py-1 text-xs Uppercase">
             <IoIosMenu size={25}/>
           </button>
           <Link
@@ -76,7 +76,7 @@ export default function Navbar() {
 
       {/* ✅ Mobile nav links (full screen) */}
       {isOpen && (
-        <div className="md:hidden bg-black bg-opacity-90 text-white flex flex-col items-center space-y-4 py-8 uppercase font-semibold text-sm">
+        <div className="md:hidden bg-black bg-opacity-90 text-white flex flex-col items-center space-y-4 py-8 Lowercase font-semibold text-sm">
           <Link href="/our-story" onClick={toggleMenu}>
             Our Story
           </Link>

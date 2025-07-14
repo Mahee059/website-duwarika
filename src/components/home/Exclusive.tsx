@@ -9,7 +9,7 @@ const Exclusive = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Heading */}
         <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl tracking-tight text-[#2B2B2B]">
+          <h1 className="text-3xl md:text-4xl tracking-tight text-gray-500">
             Exclusive Offers
           </h1>
         </div>
@@ -17,7 +17,7 @@ const Exclusive = () => {
         {/* Content Card */}
         <div className="max-w-sm mx-auto flex flex-col items-center text-center space-y-6">
           {/* Image */}
-          <div className="w-[320px] h-[320px] relative rounded-md overflow-hidden">
+          <div className="w-[320px] h-[320px] relative rectangle-md overflow-hidden">
             <Image
               src="/image10.jpg"  alt="Culture & Well-being"
               fill
@@ -28,7 +28,7 @@ const Exclusive = () => {
 
           {/* Text */}
           <div className="space-y-4 px-4">
-            <h2 className="text-xl font-serif text-[#2B2B2B]">
+            <h2 className="text-xl New Times Roman text-gray-900">
               Culture & Well-being
             </h2>
             <p className="text-[#3B3B3B] leading-relaxed">

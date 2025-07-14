@@ -8,7 +8,7 @@ const SocialGathering = () => {
     <section className="bg-gray-100 py-16 px-4">
       <div className="max-w-2xl mx-auto flex flex-col md:flex-row items-center md:items-start md:justify-between gap-10">
         {/* Image */}
-        <div className="w-full md:w-1/2 relative rounded-md overflow-hidden aspect-[4/3] md:aspect-square">
+        <div className="w-full md:w-2/2 relative rectangle-md overflow-hidden aspect-[4/3] md:aspect-square">
           <Image
             src="/image11.jpg" 
             alt="Dining at Dwarika's Hotel Kathmandu"
@@ -19,8 +19,8 @@ const SocialGathering = () => {
 
         {/* Text */}
         <div className="w-full md:w-1/2 text-center md:text-left space-y-5 mt-8 md:mt-0">
-          <h2 className="text-2xl md:text-3xl font-serif text-[#2B2B2B] leading-snug">
-            Dining at Dwarika&apos;s Hotel<br />Kathmandu
+          <h2 className="text-2xl md:text-2xl New Times Roman text-gray-900 leading-snug">
+            Dining at Dwarika&apos;s Hotel <br />Kathmandu
           </h2>
           <p className="text-[#3B3B3B] leading-relaxed max-w-md mx-auto md:mx-0">
             Experience the magic of dining in the courtyards of The Dwarika’s Hotel,

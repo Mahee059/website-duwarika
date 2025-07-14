@@ -7,7 +7,7 @@ import DwarikasStory from "@/components/home/DwarikasStory";
 import ExploresRoom from "@/components/home/ExploresRoom";
 import Exclsuive from "@/components/home/Exclusive";
 import SocialGathering from "@/components/home/SocialGathering"; 
-import ImageCarousel from "@/components/home/ImageCarousel";
+
 export default function HomePage() {
   return (
     <div className="bg-gray-100">
@@ -16,7 +16,6 @@ export default function HomePage() {
       <Gallery />
       <DwarikasStory />
       <ExploresRoom />
-       <ImageCarousel />
       <Exclsuive />
       <SocialGathering />
    </div>

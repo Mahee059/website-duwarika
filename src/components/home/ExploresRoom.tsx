@@ -1,16 +1,21 @@
 // components/ExploreRooms.tsx
+'use client';
+
 import React from 'react';
 import ImageCarousel from './ImageCarousel';
+
 const ExploreRooms = () => {
   return (
-    <>
-    <div className="flex justify-center items-center min-h-[200px] bg-gray-100">
-      <h1 className="text-3xl tracking-tight text-gray-800">
-        Explore our rooms
-      </h1>
+    <section className="w-full bg-gray-100 py-8 px-4 flex flex-col items-center">
+      <div className="max-w-4xl w-full text-center mb-6 px-4">
+        <h1 className="text-2xl md:text-3xl tracking-tight text-gray-600">
+          Explore our rooms
+        </h1>
       </div>
-      <ImageCarousel />
-    </>
+      <div className="w-full max-w-4xl px-4">
+        <ImageCarousel />
+      </div>
+    </section>
   );
 };
 
