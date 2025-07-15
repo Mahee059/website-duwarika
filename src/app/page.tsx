@@ -7,10 +7,11 @@ import DwarikasStory from "@/components/home/DwarikasStory";
 import ExploresRoom from "@/components/home/ExploresRoom";
 import Exclsuive from "@/components/home/Exclusive";
 import SocialGathering from "@/components/home/SocialGathering"; 
-
+import GoogleMaps from "@/components/home/GoogleMaps"; 
 export default function HomePage() {
   return (
     <div className="bg-gray-100">
+   
       <HeroSection />
       <About />
       <Gallery />
@@ -18,6 +19,7 @@ export default function HomePage() {
       <ExploresRoom />
       <Exclsuive />
       <SocialGathering />
+      <GoogleMaps />
    </div>
    
   );

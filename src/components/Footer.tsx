@@ -6,8 +6,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { SiTripadvisor } from "react-icons/si";
 
-
-
 const Footer = () => {
   return (
     <footer className="bg-[#f8f5f0] text-[#4b4032] border-t border-gray-200 text-xs">
@@ -16,10 +14,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 py-6 border-b border-gray-300 gap-4">
         {/* Nav links with smaller font */}
         <nav className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 font-serif uppercase tracking-wide text-[11px]">
-          <Link href="#">Blog, News and Article Coverage</Link>
-          <Link href="#">Dwarika Group</Link>
-          <Link href="#">Gallery</Link>
-          <Link href="#">Contact and Location</Link>
+          <Link href="#" className='hover:border-b-1'>Blog, News and Article Coverage</Link>
+          <Link href="#" className='hover:border-b-1'>Dwarika Group</Link>
+          <Link href="#" className='hover:border-b-1'>Gallery</Link>
+          <Link href="#" className='hover:border-b-1'>Contact and Location</Link>
         </nav>
 
         {/* Newsletter form */}
@@ -76,3 +74,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

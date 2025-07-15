@@ -1,0 +1,12 @@
+import Image from 'next/image'
+import React from 'react'
+
+const HeroSection = () => {
+  return (
+      <div className='relative h-screen w-full'>
+          <Image src={"/BackgroundImage.jpg"} alt='hero image' fill objectFit='cover' quality={100} loading='eager'  />
+    </div>
+  )
+}
+
+export default HeroSection

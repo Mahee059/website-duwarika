@@ -21,7 +21,7 @@ const Exclusive = () => {
             <Image
               src="/image10.jpg"  alt="Culture & Well-being"
               fill
-              className="object-cover object-[50%_20%]" 
+              className="object-contain object-[50%_20%]" 
               // adjust the 20% to show the head higher or lower
             />
           </div>

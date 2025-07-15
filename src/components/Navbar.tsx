@@ -20,8 +20,8 @@ export default function Navbar() {
         </Link> 
 
         {/* Desktop nav links */}
-        <div className="hidden md:flex items-center gap-8 uppercase font-light text-sm">
-          <Link href="/our-story" >Our Story</Link>
+        <div className="hidden md:flex items-center gap-8  font-light text-sm">
+          <Link href="/OurStory" >Our Story</Link>
           <Link href="/rooms-suites">Rooms & Suites</Link>
           <Link href="/dining">Dining</Link>
           <Link href="/experiences">Experiences</Link>
@@ -77,7 +77,7 @@ export default function Navbar() {
       {/* ✅ Mobile nav links (full screen) */}
       {isOpen && (
         <div className="md:hidden bg-black bg-opacity-90 text-white flex flex-col items-center space-y-4 py-8 Lowercase font-semibold text-sm">
-          <Link href="/our-story" onClick={toggleMenu}>
+          <Link href="/OurStory" onClick={toggleMenu}>
             Our Story
           </Link>
           <Link href="/rooms-suites" onClick={toggleMenu}>
