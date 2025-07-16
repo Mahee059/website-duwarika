@@ -4,7 +4,7 @@ import React from 'react'
 const HeroSection = () => {
   return (
       <div className='relative h-screen w-full'>
-          <Image src={"/BackgroundImage.jpg"} alt='hero image' fill objectFit='cover' quality={100} loading='eager'  />
+          <Image src={"/OurStory1.png"} alt='hero image' fill objectFit='cover' quality={100} loading='eager'  />
     </div>
   )
 }

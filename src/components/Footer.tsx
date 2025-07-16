@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="bg-[#f8f5f0] text-[#4b4032] border-t border-gray-200 text-xs">
       
       {/* Top nav + newsletter */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 py-6 border-b border-gray-300 gap-4">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 py-6 border-b border-gray-300 gap-4">
         {/* Nav links with smaller font */}
         <nav className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 font-serif uppercase tracking-wide text-[11px]">
           <Link href="#" className='hover:border-b-1'>Blog, News and Article Coverage</Link>
@@ -37,38 +37,44 @@ const Footer = () => {
       </div>
 
       {/* Middle: contact, partner, social */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-8">
+      <div className="max-w-4xl mx-auto flex justify-between items-center gap-8 px-4 py-8">
         {/* Contact info */}
-        <div className="text-center md:text-left leading-relaxed">
+        <div className="flex flex-col leading-relaxed space-y-4">
+          <div className='text-start text-[10px] font-light'>
           <p>Battisputali, Kathmandu, Nepal</p>
           <p>Phone: (+977-1) 4579488 / 4570770</p>
-          <p>Email: info@dwarikas.com | sales@dwarikas.com</p>
-        </div>
-
-        {/* Partner logo */}
-        <div className="flex justify-center items-center flex-col">
-          <p className="font-serif text-lg tracking-widest">S E R A N D I P I A N S</p>
+            <p>Email: info@dwarikas.com | sales@dwarikas.com</p>
+            </div>
+           {/* Partner logo */}
+        <div className="items-center text-center">
+          <p className="font-serif text-lg tracking-wide">SERANDIPIANS</p>
           <p className="text-xs mt-1">Hotel Partner</p>
         </div>
+        </div>
 
-        {/* Social icons */}
-        <div className="flex justify-center md:justify-end items-center gap-6">
+       
+
+       
+        <div className="flex flex-col  md:justify-end items-end gap-6">
+          <div className='flex gap-2 '>
           <Link href="#">
-            <FaFacebook/> 
+            <FaFacebook size={30}/> 
           </Link>
           <Link href="#">
-             <FaSquareInstagram />
+             <FaSquareInstagram size={30} />
           </Link>
           <Link href="#">
-           <SiTripadvisor />
-          </Link>
+           <SiTripadvisor size={30} />
+            </Link>
+            </div>
+         
+      <div className="text-center py-4 text-[10px] text-[#4b4032]">
+        © 2025 The Dwarika&apos;s Hotel Kathmandu | Designed by Amadeus.
+      </div>
         </div>
       </div>
 
-      {/* Bottom copyright */}
-      <div className="text-center py-4 text-xs text-[#4b4032]">
-        © 2025 The Dwarika&apos;s Hotel Kathmandu | Designed by Amadeus.
-      </div>
+     
     </footer>
   );
 };

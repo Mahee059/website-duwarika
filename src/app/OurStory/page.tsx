@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import HeroSection from '@/components/ourstory/HeroSection';
+import Preserving from '@/components/ourstory/Preserving';
 
-const page = () => {
+const Page = () => {
   return (
-    <div></div>
-  )
-}
+    <>
+      <HeroSection />
+      <Preserving />
+      
+    </>
+  );
+};
 
-export default page
-
+export default Page;

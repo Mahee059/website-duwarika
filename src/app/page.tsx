@@ -20,6 +20,7 @@ export default function HomePage() {
       <Exclsuive />
       <SocialGathering />
       <GoogleMaps />
+      
    </div>
    
   );
