@@ -1,7 +1,7 @@
 // components/Exclusive.tsx
 import React from 'react';
 import Image from 'next/image';
-import { BiArrowFromLeft, BiArrowFromRight } from 'react-icons/bi';
+import { BiArrowFromLeft } from 'react-icons/bi';
 
 const Exclusive = () => {
   return (
