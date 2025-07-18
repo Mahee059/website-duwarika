@@ -24,7 +24,7 @@ const SocialGathering = () => {
             Dining at Dwarika&apos;s Hotel <br />Kathmandu
           </h2>
           <p className="text-[#3B3B3B] leading-relaxed max-w-md mx-auto text-center md:mx-0">
-            Experience the magic of dining in the courtyards of The Dwarika’s Hotel,
+            Experience the magic of dining in the courtyards of The Dwarika`s Hotel,
             where exquisite cuisine meets timeless heritage.
           </p>
           <div className="flex w-full align-center items-center justify-center">

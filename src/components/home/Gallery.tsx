@@ -12,12 +12,12 @@ const Gallery = () => {
             {/* right section */}
             <div className='flex flex-col space-y-4'>
             <Image src={"/image2.jpg"} alt='' width={1000} height={1200} className='w-full h-full object-cover' />
-               <p className='text-xs text-center py-16 mx-8'>With stunning architecture inspired by Newari craftsmanship, every corner of The Dwarika's Hotel exudes timeless elegance. The peaceful courtyards display grand architectural wooden masterpieces that date as far back as the 13th century. </p>
+               <p className='text-xs text-center py-16 mx-8'>With stunning architecture inspired by Newari craftsmanship, every corner of The Dwarika`s Hotel exudes timeless elegance. The peaceful courtyards display grand architectural wooden masterpieces that date as far back as the 13th century. </p>
             </div>
 
             {/*left section*/}
             <div className='flex flex-col space-y-4'>
-               <p className='text-xs text-center py-16 mx-8'>Walking through the courtyards and corridors, you can't help but be immersed in Nepal's rich heritage and culture. The decorative details found in every corner of The Dwarika's Hotel take you on a journey through time. </p>
+               <p className='text-xs text-center py-16 mx-8'>Walking through the courtyards and corridors, you can`t help but be immersed in Nepal`s rich heritage and culture. The decorative details found in every corner of The Dwarika`s Hotel take you on a journey through time. </p>
             </div>
             
             <div className='max-sm:mb-4'>
@@ -33,7 +33,7 @@ const Gallery = () => {
             
             {/*right section*/}
             <div className='flex flex-col space-y-4'>
-               <p className='text-xs text-center py-16 mx-8'> To date, The Dwarika's Hotel holds one of the world's most extensive and significant architectural woodwork collections, creating a magical blend of history, culture, and luxury hospitality.  </p>
+               <p className='text-xs text-center py-16 mx-8'> To date, The Dwarika`s Hotel holds one of the world`s most extensive and significant architectural woodwork collections, creating a magical blend of history, culture, and luxury hospitality.  </p>
             </div> 
 
     </div>

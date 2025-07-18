@@ -23,7 +23,7 @@ export default function History() {
             <div className="flex items-center">
               <div>
                 <p className="text-xs sm:text-sm md:text-base text-black-700 leading-[1.4] sm:leading-[1.5] font-light tracking-[0.01em] text-center lg:text-left px-2 sm:px-4 lg:px-0">
-                  Our history is intertwined with the life and times of our late founder, Mr. Dwarika Das Shrestha. Dwarika Das Shrestha was an extraordinary human being – a true visionary who was acutely aware of his own identity, the changing world around him and his responsibility towards it. His story is one of inspiration borne out of struggle and torment, the relentless pursuit of an aesthetic ideal, and one man's determination to make a difference.
+                  Our history is intertwined with the life and times of our late founder, Mr. Dwarika Das Shrestha. Dwarika Das Shrestha was an extraordinary human being – a true visionary who was acutely aware of his own identity, the changing world around him and his responsibility towards it. His story is one of inspiration borne out of struggle and torment, the relentless pursuit of an aesthetic ideal, and one man`s determination to make a difference.
                 </p>
               </div>
             </div>

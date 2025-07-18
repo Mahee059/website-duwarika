@@ -57,10 +57,10 @@ export default function Navbar() {
       {isOpen && (
         <div className="hidden md:flex flex-col absolute right-8 top-20 w-64 bg-white border border-gray-400 rounded shadow-md py-4 px-6 space-y-2 uppercase text-sm z-50">
           <Link href="/programs" onClick={toggleMenu}>
-            The Dwarika's Programs
+            The Dwarika`s Programs
           </Link>
           <Link href="/spaces" onClick={toggleMenu}>
-            The Dwarika's Spaces
+            The Dwarika`s Spaces
           </Link>
           <Link href="/spa" onClick={toggleMenu}>
             Pancha Kosha SPA
@@ -69,7 +69,7 @@ export default function Navbar() {
             Events & Meetings
           </Link>
           <Link href="/himalayan-wellbeing-retreat" onClick={toggleMenu}>
-            The Dwarika's Himalayan Wellbeing Retreat
+            The Dwarika`s Himalayan Wellbeing Retreat
           </Link>
         </div>
       )}
@@ -90,10 +90,10 @@ export default function Navbar() {
             Experiences
           </Link>
           <Link href="/programs" onClick={toggleMenu}>
-            The Dwarika's Programs
+            The Dwarika`s Programs
           </Link>
           <Link href="/spaces" onClick={toggleMenu}>
-            The Dwarika's Spaces
+            The Dwarika`s Spaces
           </Link>
           <Link href="/spa" onClick={toggleMenu}>
             Pancha Kosha SPA
@@ -102,7 +102,7 @@ export default function Navbar() {
             Events & Meetings
           </Link>
           <Link href="/himalayan-wellbeing-retreat" onClick={toggleMenu}>
-            The Dwarika's Himalayan Wellbeing Retreat
+            The Dwarika`s Himalayan Wellbeing Retreat
           </Link>
           <Link
             href="/book"

@@ -34,7 +34,7 @@ const Exclusive = () => {
             <p className="text-[#3B3B3B] leading-relaxed">
            
             Explore the art and architecture of the medieval town squares of Kathmandu valley, 
-              and experience the luxury of staying in an award-winning 'living museum'. 
+              and experience the luxury of staying in an award-winning `living museum`. 
               Then get away to the country and take in the infinite charms of rural landscapes.
             </p>
             <button className="flex items-center gap-1 text-[#7C7C7C] hover:text-[#555] font-light mx-auto">
